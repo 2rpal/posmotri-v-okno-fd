@@ -98,7 +98,6 @@ ol {
   grid-template-areas: 'result details';
   align-items: end;
   width: 1140px;
-  height: 534px;
   gap: 30px;
 }
 
@@ -119,6 +118,7 @@ ol {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -186,7 +186,7 @@ ol {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 15px
+  gap: 15px;
 }
 
 .search-form__pseudo-checkbox {
