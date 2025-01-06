@@ -133,7 +133,7 @@ ol {
   border: none;
 }
 
-.search-form__label{
+.search-form__label {
   display: flex;
   flex-direction: row;
   width: fit-content;
@@ -217,7 +217,7 @@ ol {
   outline-offset: 2px;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after{
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   display: block;
 }
 
